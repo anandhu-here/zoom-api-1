@@ -1,0 +1,9 @@
+POST http://localhost:8080/api/message/send-message
+Content-Type: application/json
+
+{
+    "channel_id":"9ee61cba546442d49d357331af0f2e88",
+    "message": "Hllo mairu\n?",
+    "format_attr":"h2",
+    "format_type":"Paragraph"
+}
